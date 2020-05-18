@@ -1,0 +1,305 @@
+<!--
+ ____   __   __ _  ____  __  ____  __ _
+(  _ \ /  \ (  ( \(  __)/  \(  _ \(  / )
+ ) _ ((  O )/    / ) _)(  O ))   / )  (
+(____/ \__/ \_)__)(__)  \__/(__\_)(__\_)
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A demo website for the Patisserie Restaurant Template" />
+    <meta name="keywords" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bakery.bonfork.net/" />
+    <meta property="og:title" content="Patisserie Restaurant" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="A demo website for the Patisserie Restaurant Template" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+
+    <link rel="dns-prefetch" href="//fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="//use.fontawesome.com/">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com/">
+    <!--
+    ____   __   __ _  ____  __  ____  __ _
+    (  _ \ /  \ (  ( \(  __)/  \(  _ \(  / )
+    ) _ ((  O )/    / ) _)(  O ))   / )  (
+    (____/ \__/ \_)__)(__)  \__/(__\_)(__\_)
+    -->
+    <title>Patisserie</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-180x180.png" />
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display:400,500,700|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!-- Schema json -->
+    <script id="data" type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Restaurant",
+          "priceRange": "$",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Toronto",
+            "addressRegion": "ON",
+            "addressCountry": "Canada",
+            "postalCode": "M5E 1Z9",
+            "streetAddress": "12 Yonge St."
+          },
+          "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 43.643162,
+              "longitude": -79.376259
+          },
+          "name": "Pattiserie Restaurant",
+          "telephone": "+44 (0)1234 56789",
+          "url": "https://bakery.bonfork.net",
+          "paymentAccepted": "",
+          "description": "Pattiserie Restaurant Demo description. Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam id urna egestas ultricies nulla at viverra nibh donec sollicitudin metus sit amet est laoreet gravida donec cursus enim quis.",
+        
+          "servesCuisine": "French cuisine",
+          "hasMenu": "https://bakery.bonfork.net/menu",
+          "acceptsReservations": "True",
+          
+          "openingHoursSpecification": [
+              {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                      "Monday",
+                      "Tuesday",
+                      "Wednesday",
+                      "Thursday",
+                      "Friday",
+                      "Saturday",
+                      "Sunday"
+                  ],
+                  "opens": "11:00",
+                  "closes": "23:00",
+                  "is_open": true
+              }
+          ]
+      }
+  </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=ID_PROPERTY_HERE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'ID_PROPERTY_HERE');
+    </script>
+</head>
+
+<body>
+    <div class="triangle-1"></div>
+    <div class="triangle-2"></div>
+
+    <div class="menu-icon overflow-hidden d-md-none">
+        <a href="#" class="d-visible" title="Open!">
+            <span class="navbar-toggler-bar top-bar mx-0 position-relative"></span>
+            <span class="navbar-toggler-bar bottom-bar mx-0 position-relative"></span>
+        </a>
+        <a href="#" class="d-none" title="Close!">
+            <span class="navbar-toggler-bar top-close mx-0 position-relative"></span>
+            <span class="navbar-toggler-bar middle-close mx-0 position-relative"></span>
+            <span class="navbar-toggler-bar bottom-close mx-0 position-relative"></span>
+        </a>
+    </div>
+
+    <div class="navbar-collapse fixed-top">
+        <ul class="mobile-list">
+            <li class="active">
+                <a href="index.html" title="About">About</a>
+            </li>
+            <li>
+                <a href="products.html" title="Products">Products</a>
+            </li>
+            <li>
+                <a href="catering.html" title="We Cater">We Cater</a>
+            </li>
+            <li>
+                <a href="gallery.html" title="Gallery">Gallery</a>
+            </li>
+            <li>
+                <a href="contact.html" title="Contact us">Contact us</a>
+            </li>
+        </ul>
+    </div>
+
+    <header>
+        <img src="images/strawberry.png" alt="strawberry" class="strawberry-img d-none d-sm-block rellax" data-rellax-speed="1.8">
+        <img src="images/blackberry.png" alt="blackberry" class="blackberry-img d-none d-sm-block rellax" data-rellax-speed="1.8">
+        <div class="social-media d-none d-sm-block">
+            <a href="#" title="Follow on facebook">
+                <img src="images/facebook.svg" alt="Facebook icon">
+            </a>
+            <a href="#" title="Follow on instagram">
+                <img src="images/instagram.svg" alt="Instagram icon">
+            </a>
+        </div>
+        <div class="container">
+            <div class="social-media-mobile d-block d-sm-none">
+                <a href="#" title="Follow on facebook">
+                    <img src="images/facebook.svg" alt="Facebook icon">
+                </a>
+                <a href="#" title="Follow on instagram">
+                    <img src="images/instagram.svg" alt="Instagram icon">
+                </a>
+            </div>
+            <div class="text-center">
+                <a href="#" title="Go to Homepage" class="navbar-brand">
+                    <img src="images/logosvg.svg" alt="Logo" id="logo" />
+                </a>
+            </div>
+
+            <div class="header-content text-center">
+                <h6>European Pattiserie in Toronto</h6>
+                <div class="position-relative">
+                    <h1>Always the
+                        <span class="emphasized position-relative">freshest</span> ingredients with no preservatives</h1>
+                </div>
+                <a href="products.html" title="View our products" class="btn btn-view">View our products</a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand navbar-light d-none d-md-flex bottom-navbar" id="main-navbar">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html" title="About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html" title="Products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="catering.html" title="We Cater">We Cater</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html" title="Gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" title="Contact us">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about" id="sticky-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 mb-4">
+                    <h2>One of Toronto's finest patisseries</h2>
+                    <p>
+                        A family business established in 1996, European Patisserie has established its reputation as one of Toronto's finest patisseries
+                        by maintaining the highest standards in the production of cakes, pastries, savouries, chocolates
+                        and more.
+                        <br />
+                        <br /> We pride ourselves on producing a culinary creation that is not only beautiful to the eye but made
+                        with quality, freshest ingredients. Our commitment to you is that every pastry that leaves our shop
+                        is the freshest and the most flavorful it can be.
+                        <br />
+                        <br /> At European Patisserie we want not only to impress you, but everyone you share our fine product
+                        with. We want your business and strive everyday to make your dessert the most unique and delicious
+                        experience you can have.
+                    </p>
+                </div>
+                <div class="col-lg-5 text-center text-lg-right mb-4">
+                    <img src="images/tower.jpg" alt="Tower" class="img-fluid rellax" data-rellax-speed="0.8">
+                    <img src="images/macaroons.jpg" alt="Macaroons" class="img-fluid rellax" data-rellax-speed="0.8">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback text-center">
+        <div class="container">
+            <div id="feedbackCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#feedbackCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#feedbackCarousel" data-slide-to="1"></li>
+                    <li data-target="#feedbackCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/testimonials.svg" alt="Quotes">
+                        <p>
+                            Morbi congue augue id velit pellentesque finibus enean pharetra est dui, sit amet scelerisque ipsum aliquam quis.
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/testimonials.svg" alt="Quotes">
+                        <p>
+                            Morbi congue augue id velit pellentesque finibus enean pharetra est dui, sit amet scelerisque ipsum aliquam quis.
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/testimonials.svg" alt="Quotes">
+                        <p>
+                            Morbi congue augue id velit pellentesque finibus enean pharetra est dui, sit amet scelerisque ipsum aliquam quis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <div class="container">
+            <div class="social-media">
+                <a href="#" title="Follow on instagram">
+                    <img src="images/instagram.svg" alt="Instagram icon">
+                </a>
+                <a href="#" title="Follow on facebook">
+                    <img src="images/facebook.svg" alt="Facebook icon">
+                </a>
+            </div>
+            <h6>5072 Dundas St. West Etobicoke, ON, M9A 1B9 - (416) 982-2901 </h6>
+            <span>Copyright
+                <span id="year"></span> All Rights Reserved.
+                <a href="privacy-policy.html" title="Privacy Policy">Privacy Policy</a>
+                <br> Site by
+                <a href="https://bonfork.com/" target="_blank" title="Go to Bonfork">Bonfork</a>
+            </span>
+        </div>
+    </footer>
+
+    <script src="js/rellax.min.js"></script>
+    <script>
+        // Rellax Config
+        var rellax = new Rellax('.rellax');
+
+        var today = new Date().getFullYear();
+        document.getElementById('year').innerHTML = today;
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

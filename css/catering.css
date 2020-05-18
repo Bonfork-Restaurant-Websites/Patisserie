@@ -1,0 +1,467 @@
+@font-face {
+	src: url(../fonts/Butler_Light.otf);
+	font-family: butler-light;
+}
+
+@font-face {
+	src: url(../fonts/Butler_Regular.otf);
+	font-family: butler-regular;
+}
+
+body {
+    background: #FFEFFF;
+    overflow-x: hidden;
+}
+
+header {
+    height: 100vh;
+    padding: 54px 0;
+}
+
+header .header-content {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h6 {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #895D8E;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-size: 56px;
+    line-height: 67px;
+    color: #83608B;
+    font-family: butler-light, sans-serif;
+    max-width: 797px;
+    margin: 64px auto;
+}
+
+.emphasized:after {
+    content: url('../images/brush.png');
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header .social-media {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+header .social-media a {
+    display: block;
+    margin: 10px 0;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding-top: 3px;
+    transition: all .3s ease-in-out;
+}
+
+header .social-media a:hover {
+    border: 1px solid #7D6288;
+}
+
+header .social-media-mobile {
+    position: absolute;
+    top: 58px;
+}
+
+header .social-media-mobile a {
+    margin: 0 5px;
+}
+
+header .blackberry-img {
+    position: absolute;
+    top: 216px;
+    right: 178px;
+}
+
+header .strawberry-img {
+    position: absolute;
+    bottom: 216px;
+    left: 178px;
+}
+
+nav {
+    border-bottom: 1px solid rgba(171, 154, 182, 0.3);
+    padding: 15px 0 0 0 !important;
+    background: transparent;
+}
+
+nav.bottom-navbar {
+    position: absolute !important;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+nav.fixed-top {
+    background: #fff;
+}
+
+nav li {
+    margin: 0 30px;
+    padding: 10px 0 !important;
+    transition: all .1s ease-in-out;
+}
+
+nav li a {
+    font-size: 12px;
+    line-height: 16px;
+    color: #7D6288 !important;
+    letter-spacing: 2px;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+nav li.active {
+    border-bottom: 7px solid #895D8E;
+}
+
+nav li:hover {
+    border-bottom: 7px solid #895D8E;
+}
+
+.product-list {
+    padding: 288px 0;
+}
+
+.product-list img {
+    margin-top: 70%;
+}
+
+.product-list h2 {
+    font-size: 46px;
+    line-height: 48px;
+    color: #895D8E;
+    font-family: butler-regular, sans-serif;
+    font-weight: 600;
+} 
+
+.product-list h3 {
+    margin: 51px 0;
+    font-size: 24px;
+    line-height: 31px;
+    color: #8E8E93;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+}
+
+.product-list .nav {
+    margin-bottom: 51px;
+}
+
+.product-list .nav li {
+    margin: 10px 60px 10px 0;
+}
+
+.product-list .nav li a {
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 2.44px;
+    color: #8E8E93;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 !important;
+}
+
+.product-list .nav li a.active {
+    color: #895D8E;
+}
+
+.product-list .nav li a:hover {
+    color: #895D8E;
+}
+
+.product-list .tab-content h5 {
+    font-size: 16px;
+    line-height: 32px;
+    color: #000;
+    opacity: 60%;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+.product-list .tab-content p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #000;
+    opacity: 60%;
+    font-family: "Red Hat Display",sans-serif;
+}
+
+.product-list .btn-download {
+    width: 215px;
+    border-radius: 44.5px;
+    background: #915991;
+    border: 1px solid #7D6288;
+    color: #fff;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase; 
+    padding: 25px 0;
+    margin-top: 116px;
+}
+
+.product-list .btn-download:hover {
+    background: transparent;
+    color: #7D6288;
+}
+
+.feedback p {
+    max-width: 694px;
+    font-size: 32px;
+    line-height: 46px;
+    color: #676773;
+    font-family: butler-regular, sans-serif;
+    margin: 68px auto 0 auto;
+}
+
+.feedback .carousel-indicators {
+    bottom: -79px;
+}
+
+.feedback .carousel-indicators li {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin: 0 9px;
+    text-indent: 0;
+    cursor: pointer;
+    border: 1px solid #84817F;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+footer {
+    padding: 318px 0;
+}
+
+footer .social-media a {
+    display: inline-flex;
+    margin: 0 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+footer .social-media a:hover {
+    border: 1px solid #7D6288;
+}
+
+footer h6 {
+    margin: 51px 0 15px 0;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2.63px;
+    color: #9B5594;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+footer span {
+    font-size: 14px;
+    line-height: 18px;
+    color: #7F7F8C;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 400;
+}
+
+footer span a {
+    text-decoration: underline;
+    color: #7F7F8C !important;
+}
+
+footer span a:hover {
+    color: #9B5594 !important;
+}
+
+/* Media queries */
+@media (max-width: 992px) {
+    .product-list img {
+        margin-top: 25%;
+    }
+}
+
+@media (max-width: 955px) {
+    header .blackberry-img {
+        position: absolute;
+        top: 54px;
+        right: 54px;
+    }
+    header .strawberry-img {
+        position: absolute;
+        bottom: 54px;
+        left: 54px;
+    }
+}
+
+@media (max-width: 768px) {
+    header h6 {
+        margin-top: 100px;
+    }
+    header h1 {
+        font-size: 46px;
+    }
+    header {
+        padding-top: 15px;
+    }
+}
+
+.menu-icon {
+    cursor: pointer;
+    z-index: 21;
+    position: absolute;
+    right: 30px;
+    top: 58px;
+}
+.navbar-toggler-bar {
+    background: #7D6288;
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 2px;
+    margin: 7px;
+    border-radius: 1px;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.clicked.bottom-bar {
+    transform: translatex(+150%);
+}
+.clicked.top-bar {
+    transform: translatex(+150%);
+}
+.bottom-bar {
+    transform: translatex(0);
+    z-index: 21;
+}
+.top-bar {
+    transform: rotate(0);
+    z-index: 21;
+}
+.top-close {
+    transform: rotate(45deg);
+    transform-origin: 0;
+    width: 0;
+    z-index: 21;
+}
+.middle-close {
+    opacity: 0;
+    display: block;
+    z-index: 21;
+}
+.bottom-close {
+    width: 0;
+    transform: rotate(-45deg);
+    transform-origin: 0;
+    z-index: 21;
+}
+.clicked.top-close {
+    width: 25px;
+}
+.clicked.bottom-close {
+    width: 25px;
+}
+.navbar-collapse {
+    width: 1px;
+    opacity: 0;
+    z-index: 20;
+    top: 0;
+    right: 0;
+    background-color: #FFEFFF;
+    padding-top: 15vh;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    -ms-overflow-style: none;
+}
+.navbar-collapse::-webkit-scrollbar {
+    width: 0 !important;
+}
+.navbar-collapse.open {
+    width: 100vw;
+    opacity: 1;
+}
+.navbar-collapse ul {
+    padding: 30px 0;
+}
+.navbar-collapse li {
+    list-style: none;
+    padding: 15px 40px;
+    border-left: 7px solid transparent;
+    cursor: pointer;
+}
+.navbar-collapse li.active {
+    border-left: 7px solid #895D8E;
+}
+.navbar-collapse li:hover {
+    border-left: 7px solid #895D8E;
+}
+.navbar-collapse li a {
+    color: #7D6288;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    letter-spacing: 2px;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+@media (min-width: 1250px) {
+    .triangle-1 {
+        width: 1250px;
+        height: 1250px;
+        background: #FFFFFF;
+        opacity: 40%;
+        clip-path: polygon(50% 0, 0 100%, 100% 100%);
+        transform: rotate(-90deg);
+        position: absolute;
+        right: 0;
+        top: 35%;
+        z-index: -1;
+    }     
+    .triangle-2 {
+        width: 1250px;
+        height: 1250px;
+        background: #FFFFFF;
+        opacity: 40%;
+        clip-path: polygon(50% 0, 0 100%, 100% 100%);
+        transform: rotate(90deg);
+        position: absolute;
+        left: 0;
+        top: 180%;
+        z-index: -1;
+    }     
+}
